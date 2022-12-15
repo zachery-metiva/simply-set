@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Simply Set",
+  "description": "A tool to read, set, and copy key values from storage",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+},
+
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "zmmetiva@gmail.com"
+    }
+},
+
+  "permissions": [
+    "storage",
+    "menus",
+    "scripting",
+    "activeTab"
+  ]
+}

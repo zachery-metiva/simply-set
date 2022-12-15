@@ -1,0 +1,72 @@
+body {
+    background-color: #d5d9dc;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 13rem;
+    gap: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 1.5rem;
+    font-size: medium;
+}
+
+li:has(input[type="text"]) {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+input[type="text"] {
+    padding: .5rem;
+    font-size: inherit;
+    border: none;
+}
+
+input[type="checkbox"] {
+    margin-left: 3rem;
+    height: 1.5rem;
+    aspect-ratio: 1;
+}
+
+button {
+    padding: 1rem 2rem;
+    align-self: start;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    fill: #000;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+button:focus {
+    color: #171e29;
+}
+
+button:hover:not([disabled]) {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+}
+
+button:active:not([disabled]) {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+}
