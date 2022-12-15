@@ -1,4 +1,4 @@
-# CART_REFERRAL
+# Simply Set
  Google Chrome Extension
 
 ## Installation Steps:
@@ -21,4 +21,4 @@ For any who want to help with the project of maintaining this tool feel free to 
 `documentation/branch-name`
 
 ## Concerns or Questions
-Please reach out to Zachery Metiva at zmetiva@ford.com. Or create an issue with the question tag and one of the admins of the project will promptly respond.
+Please make an issue and I will get back to you as soon as possible!
